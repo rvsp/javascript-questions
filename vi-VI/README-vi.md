@@ -7,23 +7,24 @@ Các câu hỏi sẽ từ cơ bản đến nâng cao: kiểm tra trình độ Ja
 Các đáp án được đặt dưới mỗi câu hỏi, hãy click để tham khảo chúng. Chúc may mắn :heart:
 
 Danh sách các ngôn ngữ khác:
-* [English](../en-EN/README.md)
-* [العربية](../ar-AR/README_AR.md)
-* [اللغة العامية - Egyptian Arabic](../ar-EG/README_ar-EG.md)
-* [Bosanski](../bs-BS/README-bs_BS.md)  
-* [Deutsch](../de-DE/README.md)  
-* [Español](../es-ES/README-ES.md)
-* [Français](../fr-FR/README_fr-FR.md)
-* [日本語](../ja-JA/README-ja_JA.md)  
-* [한국어](../ko-KR/README-ko_KR.md)
-* [Nederlands](./nl-NL/README.md)
-* [Português Brasil](../pt-BR/README_pt_BR.md)  
-* [Русский](../ru-RU/README.md)
-* [Українська мова](../ua-UA/README-ua_UA.md)  
-* [Tiếng Việt](../vi-VI/README-vi.md)
-* [中文版本](../zh-CN/README-zh_CN.md)
-* [Türkçe](../tr-TR/README-tr_TR.md)
-* [ไทย](../th-TH/README-th_TH.md)
+- [🇸🇦 العربية](./ar-AR/README_AR.md)
+- [🇪🇬 اللغة العامية](./ar-EG/README_ar-EG.md)
+- [🇧🇦 Bosanski](./bs-BS/README-bs_BS.md)
+- [🇩🇪 Deutsch](./de-DE/README.md)
+- [🇬🇧 English](../README.md)
+- [🇪🇸 Español](./es-ES/README-ES.md)
+- [🇫🇷 Français](./fr-FR/README_fr-FR.md)
+- [🇮🇩 Indonesia](./id-ID/README.md)
+- [🇯🇵 日本語](./ja-JA/README-ja_JA.md)
+- [🇰🇷 한국어](./ko-KR/README-ko_KR.md)
+- [🇳🇱 Nederlands](./nl-NL/README.md)
+- [🇧🇷 Português Brasil](./pt-BR/README_pt_BR.md)
+- [🇷🇺 Русский](./ru-RU/README.md)
+- [🇹🇭 ไทย](./th-TH/README-th_TH.md)
+- [🇹🇷 Türkçe](./tr-TR/README-tr_TR.md)
+- [🇺🇦 Українська мова](./ua-UA/README-ua_UA.md)
+- [🇨🇳 简体中文](./zh-CN/README-zh_CN.md)
+- [🇹🇼 繁體中文](./zh-TW/README_zh-TW.md)
 
 ---
 
@@ -1048,7 +1049,7 @@ typeof sayHi();
 
 `sayHi` function trả về giá trị của một _hàm gọi ngay lập tức_ (immediately invoked function - IIFE). Function này trả về `0`, kiểu dữ liệu `"number"`.
 
-FYI: chỉ có 7 kiểu dữ liệu built-in: `null`, `undefined`, `boolean`, `number`, `string`, `object`, and `symbol`. `"function"` không phải là một kiểu, mà là objects, kiểu dữ liệu là `"object"`.
+FYI: chỉ có 7 kiểu dữ liệu built-in: `null`, `undefined`, `boolean`, `number`, `string`, `object`, `symbol`, and `bigint`. `"function"` không phải là một kiểu, mà là objects, kiểu dữ liệu là `"object"`.
 
 </p>
 </details>
@@ -3313,7 +3314,7 @@ Promise.resolve(5)
 
 - A: `5`
 - B: `Promise {<pending>: 5}`
-- C: `Promise {<resolved>: 5}`
+- C: `Promise {<fulfilled>: 5}`
 - D: `Error`
 
 <details><summary><b>Đáp án</b></summary>
@@ -4705,4 +4706,3 @@ Mặc định ta không thể duyệt qua được object. Trừ phi nó đượ
 
 </p>
 </details>
-
